@@ -1,113 +1,232 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Términos y Condiciones — ConectaObra</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: #f5f7fa; color: #1a1a2e; }
-    header { background: #1B4F9C; color: white; padding: 30px 20px; }
-    header a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; display: inline-block; margin-bottom: 12px; }
-    header a:hover { color: white; }
-    header h1 { font-size: 1.8rem; font-weight: 700; }
-    header p { font-size: 0.9rem; opacity: 0.75; margin-top: 6px; }
-    main { max-width: 760px; margin: 40px auto; padding: 0 20px 60px; }
-    .card { background: white; border-radius: 12px; padding: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-    h2 { font-size: 1.2rem; color: #1B4F9C; margin: 32px 0 12px; padding-bottom: 8px; border-bottom: 2px solid #e8f0fe; }
-    h2:first-child { margin-top: 0; }
-    h3 { font-size: 1rem; color: #2E75B6; margin: 20px 0 8px; }
-    p { font-size: 0.95rem; line-height: 1.7; color: #333; margin-bottom: 12px; }
-    ul { margin: 8px 0 12px 20px; }
-    ul li { font-size: 0.95rem; line-height: 1.7; color: #333; margin-bottom: 4px; }
-    footer { text-align: center; padding: 30px 20px; color: #999; font-size: 0.85rem; }
-    footer a { color: #1B4F9C; text-decoration: none; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad — ConectaObra</title>
+    <style>
+        :root {
+            --bg: #fafafa;
+            --text: #1a1a2e;
+            --text-muted: #555;
+            --accent: #1e3a8a;
+            --border: #e5e7eb;
+            --section-bg: #fff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.75;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        .header {
+            text-align: center;
+            padding: 48px 0 40px;
+            border-bottom: 2px solid var(--accent);
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+        .header p {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 40px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 24px 0 10px;
+        }
+        p, li {
+            margin-bottom: 12px;
+            color: #333;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        .placeholder {
+            background: #fff3cd;
+            border: 1px dashed #d4a017;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            color: #856404;
+            font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px;
+            font-size: 15px;
+        }
+        th, td {
+            padding: 12px 14px;
+            border: 1px solid var(--border);
+            text-align: left;
+        }
+        th {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        td { background: #fff; }
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--text-muted);
+            text-align: center;
+        }
+        a { color: var(--accent); }
+        @media (max-width: 600px) {
+            .container { padding: 24px 16px 60px; }
+            .header h1 { font-size: 22px; }
+            h2 { font-size: 18px; }
+            table { font-size: 13px; }
+            th, td { padding: 8px; }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <a href="index.html">← Volver</a>
-    <h1>📄 Términos y Condiciones</h1>
-    <p>Última actualización: 22 de mayo de 2025</p>
-  </header>
-  <main>
-    <div class="card">
-
-      <h2>1. Identificación del titular</h2>
-      <p>ConectaObra es una plataforma digital titularidad de <strong>Luciano Salvetti Esquinas</strong>, con NIF 79034577E, domicilio en Calle Biznaga 8 1ºA, 29651, Mijas, Málaga, España, y correo electrónico de contacto hola@conectaobra.es.</p>
-
-      <h2>2. Objeto</h2>
-      <p>ConectaObra es una plataforma marketplace que conecta a particulares que necesitan servicios de construcción, reformas y oficios con profesionales del sector. La plataforma facilita el contacto, la comunicación y la gestión de trabajos entre ambas partes, pero <strong>no es parte del contrato de servicios</strong> que se establece entre el particular y el profesional.</p>
-
-      <h2>3. Aceptación</h2>
-      <p>El uso de la plataforma implica la aceptación plena y sin reservas de los presentes términos. Si no está de acuerdo con alguno de ellos, debe abstenerse de usar la plataforma.</p>
-
-      <h2>4. Registro y cuenta de usuario</h2>
-      <ul>
-        <li>Para usar ConectaObra es necesario crear una cuenta con información veraz y actualizada.</li>
-        <li>El usuario es responsable de mantener la confidencialidad de sus credenciales.</li>
-        <li>Está prohibido crear cuentas falsas o suplantar la identidad de terceros.</li>
-        <li>ConectaObra se reserva el derecho de suspender o eliminar cuentas que incumplan estos términos.</li>
-      </ul>
-
-      <h2>5. Tipos de cuenta</h2>
-      <h3>5.1 Cuenta de Particular</h3>
-      <p>Permite publicar posts sobre necesidades de servicios, contactar con profesionales y valorar trabajos completados. Es <strong>gratuita</strong>.</p>
-      <h3>5.2 Cuenta de Profesional</h3>
-      <p>Permite crear un perfil profesional, recibir contactos de clientes y gestionar trabajos. Requiere el pago de una <strong>suscripción</strong> según las tarifas vigentes.</p>
-
-      <h2>6. Suscripciones y pagos</h2>
-      <ul>
-        <li>Las suscripciones se facturan según el período elegido (mensual o anual).</li>
-        <li>El pago se procesa a través de Stripe y/o PayPal. ConectaObra no almacena datos de pago.</li>
-        <li>Las suscripciones se renuevan automáticamente salvo cancelación previa.</li>
-        <li>Para cancelar, el usuario debe hacerlo desde su perfil antes de la fecha de renovación.</li>
-        <li>No se realizan reembolsos por períodos no utilizados, salvo en los casos previstos por la normativa de consumidores de la UE (desistimiento en los primeros 14 días si no se ha hecho uso del servicio).</li>
-      </ul>
-
-      <h2>7. Contenido generado por usuarios</h2>
-      <ul>
-        <li>Los usuarios son responsables del contenido que publican (posts, fotos, reseñas, mensajes).</li>
-        <li>Está prohibido publicar contenido ilegal, ofensivo, discriminatorio o que vulnere derechos de terceros.</li>
-        <li>ConectaObra no garantiza la veracidad del contenido publicado por los usuarios.</li>
-        <li>ConectaObra se reserva el derecho de eliminar contenido que incumpla estos términos.</li>
-      </ul>
-
-      <h2>8. Responsabilidad de ConectaObra</h2>
-      <p>ConectaObra actúa como intermediario tecnológico y no es parte de los contratos de servicio entre particulares y profesionales. Por tanto:</p>
-      <ul>
-        <li>No es responsable de la calidad de los servicios prestados por los profesionales.</li>
-        <li>No garantiza que los profesionales estén cualificados, asegurados o habilitados.</li>
-        <li>No es responsable de los acuerdos económicos entre usuarios.</li>
-        <li>No se responsabiliza de los daños derivados del mal uso de la plataforma.</li>
-      </ul>
-
-      <h2>9. Verificación de identidad</h2>
-      <p>ConectaObra ofrece un proceso voluntario de verificación de identidad para profesionales. La verificación no implica que ConectaObra avale la calidad o legalidad de los servicios ofrecidos.</p>
-
-      <h2>10. Valoraciones y reseñas</h2>
-      <ul>
-        <li>Las valoraciones deben ser honestas y basadas en experiencias reales.</li>
-        <li>Está prohibido manipular el sistema de valoraciones.</li>
-        <li>ConectaObra puede eliminar valoraciones que incumplan estas normas.</li>
-      </ul>
-
-      <h2>11. Propiedad intelectual</h2>
-      <p>El nombre, logotipo, diseño y código de ConectaObra son propiedad de Luciano Salvetti Esquinas. El contenido publicado por los usuarios es propiedad de sus respectivos autores, quienes conceden a ConectaObra una licencia no exclusiva para mostrarlo en la plataforma.</p>
-
-      <h2>12. Modificación y terminación del servicio</h2>
-      <p>ConectaObra se reserva el derecho de modificar, suspender o terminar el servicio con previo aviso de 30 días, salvo en casos de fuerza mayor o incumplimiento grave por parte del usuario.</p>
-
-      <h2>13. Legislación aplicable y jurisdicción</h2>
-      <p>Estos términos se rigen por la legislación española. Para cualquier controversia, las partes se someten a los juzgados y tribunales de Málaga, sin perjuicio de los fueros imperativos que pudieran corresponder al usuario como consumidor.</p>
-
-      <h2>14. Contacto</h2>
-      <p>Para cualquier consulta: <a href="mailto:hola@conectaobra.es">hola@conectaobra.es</a></p>
-
+<div class="container">
+    <div class="header">
+        <h1>Política de Privacidad</h1>
+        <p>Última actualización: junio de 2026</p>
     </div>
-  </main>
-  <footer>
-    <p>© 2025 ConectaObra · <a href="mailto:hola@conectaobra.es">hola@conectaobra.es</a></p>
-  </footer>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <table>
+        <tr><th>Dato</th><th>Detalle</th></tr>
+        <tr><td>Responsable</td><td><span class="placeholder">Luciano Salvetti Esquinas</span></td></tr>
+        <tr><td>NIF / CIF</td><td><span class="placeholder">79034577E</span></td></tr>
+        <tr><td>Domicilio</td><td><span class="placeholder">Calle Biznaga 8, 1ºA, 29651 Mijas, Málaga, España</span></td></tr>
+        <tr><td>Correo electrónico</td><td>info@conectaobraapp.com</td></tr>
+        <tr><td>Sitio web</td><td>https://conectaobraapp.com</td></tr>
+    </table>
+
+    <h2>2. Datos que recopilamos</h2>
+    <p>Dependiendo de cómo uses ConectaObra, podemos recopilar los siguientes datos personales:</p>
+
+    <h3>Datos de registro</h3>
+    <p>Nombre completo, dirección de correo electrónico y contraseña (o los datos proporcionados por Google o Apple si usas inicio de sesión social). Si te registras como profesional, también recopilamos tu especialidad, ubicación y un breve perfil biográfico.</p>
+
+    <h3>Datos de perfil profesional</h3>
+    <p>Fotografía de perfil, fotografías de portafolio de trabajos realizados, documentos de identidad (para verificación), idiomas y zona de cobertura geográfica.</p>
+
+    <h3>Datos de uso del servicio</h3>
+    <p>Mensajes enviados a través del chat de la plataforma, valoraciones y reseñas publicadas (incluyendo imágenes adjuntas), publicaciones en la comunidad y ofertas de empleo publicadas.</p>
+
+    <h3>Datos de pago</h3>
+    <p>Si contratas una suscripción profesional, Stripe (nuestro procesador de pagos) gestiona los datos de tu tarjeta bancaria. ConectaObra no almacena ni accede a los datos completos de tu tarjeta — solo recibimos un identificador de cliente y el estado de la suscripción.</p>
+
+    <h3>Datos técnicos</h3>
+    <p>Dirección IP, tipo de dispositivo, sistema operativo, navegador utilizado y datos de navegación dentro de la aplicación. Estos datos se recogen de forma automatizada para el correcto funcionamiento del servicio.</p>
+
+    <h2>3. Finalidades del tratamiento</h2>
+    <p>Tratamos tus datos con las siguientes finalidades:</p>
+    <ul>
+        <li>Gestionar tu registro y cuenta de usuario en la plataforma.</li>
+        <li>Permitir la conexión entre clientes y profesionales de la construcción.</li>
+        <li>Facilitar la comunicación entre usuarios a través del chat.</li>
+        <li>Gestionar las suscripciones y pagos de los planes profesionales.</li>
+        <li>Mostrar valoraciones y reseñas públicas de los profesionales.</li>
+        <li>Verificar la identidad de los profesionales registrados.</li>
+        <li>Enviar comunicaciones relacionadas con el servicio (cambios en tu cuenta, actualizaciones importantes).</li>
+        <li>Prevenir fraudes y garantizar la seguridad de la plataforma.</li>
+        <li>Cumplir con obligaciones legales aplicables.</li>
+    </ul>
+
+    <h2>4. Base legal del tratamiento</h2>
+    <table>
+        <tr><th>Finalidad</th><th>Base legal</th></tr>
+        <tr><td>Registro y gestión de cuenta</td><td>Ejecución del contrato (art. 6.1.b RGPD)</td></tr>
+        <tr><td>Chat y comunicaciones entre usuarios</td><td>Ejecución del contrato</td></tr>
+        <tr><td>Suscripciones y pagos</td><td>Ejecución del contrato</td></tr>
+        <tr><td>Valoraciones y reseñas</td><td>Interés legítimo (art. 6.1.f RGPD)</td></tr>
+        <tr><td>Verificación de identidad</td><td>Interés legítimo y obligación legal</td></tr>
+        <tr><td>Comunicaciones de servicio</td><td>Ejecución del contrato</td></tr>
+        <tr><td>Seguridad y prevención de fraude</td><td>Interés legítimo</td></tr>
+        <tr><td>Cumplimiento legal</td><td>Obligación legal (art. 6.1.c RGPD)</td></tr>
+    </table>
+
+    <h2>5. Plazo de conservación</h2>
+    <p>Conservamos tus datos personales mientras mantengas tu cuenta activa en ConectaObra. Si decides eliminar tu cuenta, procederemos a eliminar tus datos personales de forma inmediata, con las siguientes excepciones:</p>
+    <ul>
+        <li>Los mensajes enviados en conversaciones se anonimizan (se desvinculan de tu identidad) pero se conservan para mantener la coherencia del historial de la otra parte.</li>
+        <li>Los datos de facturación se conservan durante el plazo legalmente exigido (5 años conforme al Código de Comercio).</li>
+        <li>Los datos necesarios para el cumplimiento de obligaciones legales se conservan durante el plazo que establezca la normativa aplicable.</li>
+    </ul>
+
+    <h2>6. Destinatarios de los datos</h2>
+    <p>Compartimos tus datos únicamente con los siguientes terceros, necesarios para el funcionamiento del servicio:</p>
+    <table>
+        <tr><th>Proveedor</th><th>Finalidad</th><th>Ubicación</th></tr>
+        <tr><td>Supabase Inc.</td><td>Alojamiento de base de datos, autenticación y almacenamiento de archivos</td><td>EE.UU. (cláusulas contractuales tipo aprobadas por la UE)</td></tr>
+        <tr><td>Stripe Inc.</td><td>Procesamiento de pagos y gestión de suscripciones</td><td>EE.UU. (cláusulas contractuales tipo)</td></tr>
+        <tr><td>Google LLC</td><td>Inicio de sesión con Google (OAuth)</td><td>EE.UU. (cláusulas contractuales tipo)</td></tr>
+        <tr><td>Apple Inc.</td><td>Inicio de sesión con Apple (OAuth)</td><td>EE.UU. (cláusulas contractuales tipo)</td></tr>
+        <tr><td>Vercel Inc.</td><td>Alojamiento y distribución de la aplicación web</td><td>EE.UU. (cláusulas contractuales tipo)</td></tr>
+    </table>
+    <p>No vendemos, alquilamos ni compartimos tus datos personales con terceros con fines publicitarios o comerciales.</p>
+
+    <h2>7. Transferencias internacionales</h2>
+    <p>Algunos de nuestros proveedores de servicios están ubicados en Estados Unidos. Estas transferencias se realizan al amparo de las cláusulas contractuales tipo aprobadas por la Comisión Europea (Decisión 2021/914), lo que garantiza un nivel de protección adecuado de tus datos personales conforme al RGPD.</p>
+
+    <h2>8. Derechos del usuario</h2>
+    <p>Como titular de los datos, tienes derecho a:</p>
+    <ul>
+        <li><strong>Acceso:</strong> conocer qué datos tuyos tratamos.</li>
+        <li><strong>Rectificación:</strong> corregir datos inexactos o incompletos.</li>
+        <li><strong>Supresión:</strong> solicitar la eliminación de tus datos. Puedes hacerlo directamente desde la sección "Perfil → Eliminar cuenta" de la aplicación.</li>
+        <li><strong>Oposición:</strong> oponerte al tratamiento en determinadas circunstancias.</li>
+        <li><strong>Limitación:</strong> solicitar la restricción del tratamiento de tus datos.</li>
+        <li><strong>Portabilidad:</strong> recibir tus datos en un formato estructurado y de uso común.</li>
+    </ul>
+    <p>Para ejercer estos derechos, puedes escribirnos a <strong>info@conectaobraapp.com</strong>. Responderemos en un plazo máximo de 30 días.</p>
+    <p>Si consideras que no hemos atendido correctamente tus derechos, puedes presentar una reclamación ante la <strong>Agencia Española de Protección de Datos</strong> (AEPD) en <a href="https://www.aepd.es" target="_blank">www.aepd.es</a>.</p>
+
+    <h2>9. Seguridad</h2>
+    <p>Aplicamos medidas técnicas y organizativas adecuadas para proteger tus datos personales, incluyendo cifrado en tránsito (HTTPS/TLS), políticas de acceso basadas en roles (Row Level Security), autenticación segura y almacenamiento cifrado. No obstante, ningún sistema es completamente seguro, por lo que no podemos garantizar la seguridad absoluta de la información.</p>
+
+    <h2>10. Menores de edad</h2>
+    <p>ConectaObra no está dirigida a menores de 16 años. No recopilamos conscientemente datos personales de menores. Si tienes conocimiento de que un menor se ha registrado en la plataforma, contacta con nosotros en info@conectaobraapp.com y procederemos a eliminar la cuenta.</p>
+
+    <h2>11. Cookies</h2>
+    <p>ConectaObra utiliza cookies técnicas estrictamente necesarias para el funcionamiento de la aplicación (sesión de usuario, preferencias de idioma). No utilizamos cookies publicitarias ni de seguimiento de terceros. Al ser cookies necesarias para la prestación del servicio, no requieren consentimiento previo conforme al artículo 22.2 de la LSSI-CE.</p>
+
+    <h2>12. Modificaciones</h2>
+    <p>Podemos actualizar esta Política de Privacidad para reflejar cambios en nuestras prácticas o en la normativa aplicable. Publicaremos cualquier modificación en esta misma página con la fecha de la última actualización. Si los cambios son significativos, te notificaremos a través de la aplicación o por correo electrónico.</p>
+
+    <h2>13. Contacto</h2>
+    <p>Para cualquier consulta relacionada con la protección de tus datos personales, escríbenos a:</p>
+    <p><strong>info@conectaobraapp.com</strong></p>
+
+    <div class="footer">
+        <p>© 2026 ConectaObra. Todos los derechos reservados.</p>
+        <p><a href="/terms.html">Términos y Condiciones</a></p>
+    </div>
+</div>
 </body>
 </html>
